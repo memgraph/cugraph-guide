@@ -6,6 +6,11 @@
 TODO(gitbuda): Add basic C++ example of how to run PageRank once it's done.
 ```
 
+## Installation
+
+TODO(gitbuda): How to install proper version of Cuda (cuGraph requires 11+).
+TODO(gitbuda): Some notes on how to install/compile cuGraph.
+
 ## Graph Representations
 
 ### https://people.sc.fsu.edu/~jburkardt/data/mm/mm.html
@@ -22,6 +27,8 @@ TODO: Explain COO, CSR, CRS
 
 ### Nomenclature
 
+`h_rows` probably means host (CPU) rows.
+`d_rows` probably means device (GPU) rows.
 `uvector` probably means uninitialized vector.
 `_sg` probably means single GPU.
 `_mg` probably means multi GPU.
