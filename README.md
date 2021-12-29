@@ -20,6 +20,12 @@ TODO: Explain COO, CSR, CRS
 
 ## NVIDIA Abstractions
 
+### Nomenclature
+
+`uvector` probably means uninitialized vector.
+`_sg` probably means single GPU.
+`_mg` probably means multi GPU.
+
 ### RMM - RAPIDS Memory Manager
 
 Helps in dealing with device (GPU) and host (CPU) memory allocation. Since
@@ -31,3 +37,7 @@ device data from the host program.
 Helps with executing analytics on top of `RMM` data structures but also dealing
 with the actual data, e.g., copying data from host to device and the other way
 around.
+
+### Thrust - RAPIDS c++::std
+
+Helps with running C++ standard library like tasks on GPU.
