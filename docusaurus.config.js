@@ -44,9 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'cuGraph Guide',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'cuGraph Guide',
           src: 'img/logo.svg',
         },
         items: [
