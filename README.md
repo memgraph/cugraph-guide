@@ -11,6 +11,10 @@ TODO(gitbuda): Add basic C++ example of how to run PageRank once it's done.
 TODO(gitbuda): How to install proper version of Cuda (cuGraph requires 11+).
 TODO(gitbuda): Some notes on how to install/compile cuGraph.
 
+Keep versiong of both conda cugraph and cudatoolkit aligned between .py and .so
+modules because they all use one Cuda library. E.g. if Cuda 11.5 is used to
+compile .so file, install the same version inside conda environment.
+
 ## Graph Representations
 
 ### https://people.sc.fsu.edu/~jburkardt/data/mm/mm.html
